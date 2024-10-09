@@ -13,7 +13,7 @@ def menu ():
         if respuesta == 1:
             cargar_pacientes(lista_pacientes)
         elif respuesta == 2:
-            nombre_paciente = input ("ingrese el numero de del paciente que busca: ")
+            numero = int(input ("ingrese el numero de del paciente que busca: "))
             paciente = buscar_pacientes(lista_pacientes, numero)
             if paciente:
                 print (f"Paciente encontrado: {paciente}")
