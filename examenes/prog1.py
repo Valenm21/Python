@@ -75,8 +75,8 @@ def min_dias_internados (lista_pacientes):
         print (f"El minimo de dias internados es de: {min_dias_internados}")
 
 def max_min_dias_internado (lista_pacientes):
-    print = max_dias_internado
-    print = min_dias_internados
+    max_dias_internado (lista_pacientes)
+    min_dias_internados(lista_pacientes)
 
 def cont_pacientes_mas_cinco_dias (lista_pacientes):
     contador = 0
